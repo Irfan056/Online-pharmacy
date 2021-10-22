@@ -13,7 +13,7 @@ const Header = () => {
         <>
             <Navbar collapseOnSelect sticky="top" bg="white" variant="light" expand="lg">
                 <Container>
-                    <Navbar.Brand className="ms-5" href="#home"> <img height="40px" src="https://i.ibb.co/wCQjkGz/header.jpg" alt="" /> Online Pharmacy</Navbar.Brand>
+                    <Navbar.Brand className="ms-5 fw-bolder" href="#home"> <img height="40px" src="https://i.ibb.co/wCQjkGz/header.jpg" alt="" /> Online Pharmacy</Navbar.Brand>
                     <Navbar.Toggle />
 
                     <Navbar.Collapse className="justify-content-end ">
@@ -25,10 +25,10 @@ const Header = () => {
                         <Nav.Link as={Link} to="/about">About Us</Nav.Link>
 
                         {
-                            user?.email ?
+                            user ?.email ?
                                 <Button onClick={logOut} variant="light">Logout</Button> :
                                 <Nav.Link as={Link} to="/login">Login</Nav.Link>}
-                        <Navbar.Text>Signed in as: <a href="#login">{user?.displayName}</a> </Navbar.Text>
+                        <Navbar.Text>Signed in as: <a href="#login">{user ?.displayName}</a> </Navbar.Text>
 
                     </Navbar.Collapse>
                 </Container>

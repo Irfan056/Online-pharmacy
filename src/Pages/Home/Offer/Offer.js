@@ -3,8 +3,8 @@ import { Button, Col, Row } from 'react-bootstrap';
 
 const Offer = () => {
     return (
-        <div className="bg-secondary mb-5 ms-3 me-5">
-            <p > We Care About Your HEALTH</p>
+        <div className="bg-white mb-5 ms-3 me-5 mt-3">
+
             <h5> Health Care Service</h5>
 
             <div>

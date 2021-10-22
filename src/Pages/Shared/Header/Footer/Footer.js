@@ -7,14 +7,12 @@ const Footer = () => {
             <Row >
                 <Col>
                     <h5>Company Name</h5>
-                    <h5 className="text-danger mt-5">Online Pharmacy</h5>
+                    <h5 className="text-white mt-5">Online Pharmacy</h5>
                 </Col>
                 <Col>
-                    <h5>Quicks Links</h5>
+
                     <h6>Get Started</h6>
                     <h6>Top Leaders</h6>
-                    <h6>Success Stories</h6>
-                    <h6>Event/tickets</h6>
                     <h6>News</h6>
                     <h6>Life Style</h6>
                     <h6>About</h6>
@@ -22,8 +20,8 @@ const Footer = () => {
                 <Col>
                     <h5>Get Started</h5>
 
-                    <p>Get Access to your full training and marketing</p>
-                    <Button>Register Now</Button>
+
+                    <Button className="bg-success">Register Now</Button>
                 </Col>
                 <Col>
                     <h5>Contact US</h5>

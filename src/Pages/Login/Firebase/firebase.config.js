@@ -1,9 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBI2DyH5vOv_vpDy4hhjwu9iVGTlHf4XiQ",
-    authDomain: "go-home-pharmachy.firebaseapp.com",
-    projectId: "go-home-pharmachy",
-    storageBucket: "go-home-pharmachy.appspot.com",
-    messagingSenderId: "851021876984",
-    appId: "1:851021876984:web:80be107a21a10978e8750d"
+    apiKey: "AIzaSyDIrpJfrwqlu8Eoxz77YrRDXrU-tJZZ2fI",
+    authDomain: "online-pharmacy-8fb4b.firebaseapp.com",
+    projectId: "online-pharmacy-8fb4b",
+    storageBucket: "online-pharmacy-8fb4b.appspot.com",
+    messagingSenderId: "416425600810",
+    appId: "1:416425600810:web:e97a54c4e5849d15d4a053"
+
 };
 export default firebaseConfig;
